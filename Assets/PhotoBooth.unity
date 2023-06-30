@@ -4011,6 +4011,126 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -8340074814362480348, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Neck_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -8029211991419513862, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_HindLeg_KneeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -7513220207619444410, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: brown_bea4
+      objectReference: {fileID: 0}
+    - target: {fileID: -7408578464627530126, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_Ear_01_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -7371032007764291461, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Neck_02SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -6933425822852569095, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Neck_TopSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -5665346954675313964, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Spine_TopSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -5400872837648973615, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_FrontLeg_BallSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -4867360266018611692, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Head_JawSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -3874499187008456275, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_Ear_01_02SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -3359931534389365825, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_HindLeg_HipSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -3317589365051376756, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_Ear_01_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -2907192396314303468, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_FrontLeg_HipSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -2838985222736371925, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Spine_02SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -2156080861400692273, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_HindLeg_BallSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -1872257537409735100, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_FrontLeg_ToeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -1492447671949900766, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_FrontLeg_BallSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -1300247563837490106, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_HindLeg_ToeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -1133615157651400462, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_HindLeg_ToeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -804438076949297740, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_HindLeg_BallSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -763976089960614355, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_HindLeg_HipSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -516475348782284507, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_HindLeg_AnkleSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 141703121979640413, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_FrontLeg_KneeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 867192936771636431, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Tail_01_01SHJnt
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
         type: 3}
       propertyPath: m_Name
@@ -4019,13 +4139,103 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540390892693033263, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Head_TopSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580394028877355682, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_FrontLeg_KneeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024070641984108884, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_HindLeg_AnkleSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474922324360620711, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_FrontLeg_HipSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589956985559668872, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_FrontLeg_AnkleSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 3596838931226684147, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_HindLeg_KneeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655737184539550993, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Tail_01_02SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 4349036302083330989, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_MAINSHJnt
       objectReference: {fileID: 0}
     - target: {fileID: 5117502191225289471, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 54d1f1fdaf6f991418a4997adfe89186, type: 2}
+    - target: {fileID: 5210875290651427066, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Spine_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666487857062203815, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_Ear_01_02SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692598463367196125, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_Clavicle_01_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970275909585020220, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_FrontLeg_AnkleSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6378687061618641176, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Spine_03SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449305961762776537, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Spine_04SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573683462052457720, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_FrontLeg_ToeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8824179537544867664, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Head_JawEndSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8964225534090646811, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_Clavicle_01_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993358056412179789, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_ROOTSHJnt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4033,11 +4243,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1382017909}
+      addedObject: {fileID: 1382017911}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1382017911}
+      addedObject: {fileID: 1382017912}
   m_SourcePrefab: {fileID: 100100000, guid: aecc81b7cc50eb94da52a596bc4ad3d4, type: 3}
 --- !u!1001 &751098705
 PrefabInstance:
@@ -4158,7 +4368,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &752203144
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5426,27 +5636,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 701110094}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1382017909
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1382017908}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6c6b1ae1dcdaaf4479bd760bccf83774, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &1382017910 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
@@ -5549,6 +5738,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &1382017912
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382017908}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c6b1ae1dcdaaf4479bd760bccf83774, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1419460264
 GameObject:
   m_ObjectHideFlags: 0
@@ -7077,7 +7287,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 7c80ec6633dda5b428f3e6df2732154f,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1330755669629619180, guid: 7c80ec6633dda5b428f3e6df2732154f,
         type: 3}
