@@ -14,6 +14,7 @@ public class ModelSwitcher : MonoBehaviour
         public GameObject Model;
     }
     public ModelPair[] Models;
+    bool istracked;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,9 @@ public class ModelSwitcher : MonoBehaviour
 
     public void ToggleActivation(Toggle T,GameObject G)
     {
+        if (istracked) return;
+
+
         foreach (ModelPair item in Models)
         {
             if (G == item.Model)
@@ -41,6 +45,26 @@ public class ModelSwitcher : MonoBehaviour
 
             }
 
+        }
+    }
+
+    public void OnTrack()
+    {
+        foreach (ModelPair item in Models)
+        {
+            if (item._Toggle.isOn)
+            {
+                item.Model.GetComponent<AudioSource>().Play();
+                break;
+            }
+        }
+    }
+
+    public void OnLost()
+    {
+        foreach (ModelPair item in Models)
+        {
+            item.Model.GetComponent<AudioSource>().Stop();
         }
     }
 
