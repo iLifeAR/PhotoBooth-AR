@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -14,16 +15,25 @@ public class ModelSwitcher : MonoBehaviour
         public GameObject Model;
     }
     public ModelPair[] Models;
+    public Vector3 CameraRotation;
+
+
     bool istracked;
 
     // Start is called before the first frame update
-    void Start()
+    async void Start()
     {
         foreach (ModelPair item in Models)
         {
             item._Toggle.onValueChanged.AddListener(delegate { ToggleActivation(item._Toggle, item.Model); });
         }   
+
+
+        await Task.Delay(3000);
+        Camera.main.transform.localEulerAngles= CameraRotation;
     }
+
+
     
 
     public void ToggleActivation(Toggle T,GameObject G)
