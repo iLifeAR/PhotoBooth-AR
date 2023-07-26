@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -16,6 +17,8 @@ public class ModelSwitcher : MonoBehaviour
     }
     public ModelPair[] Models;
     public Vector3 CameraRotation;
+    public RectTransform BoothMenu;
+    public RectTransform AugmentUIGroup;
 
 
     bool istracked;
@@ -92,6 +95,9 @@ public class ModelSwitcher : MonoBehaviour
         ss.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
         ss.Apply();
 
+        NativeGallery.Permission permission = NativeGallery.SaveImageToGallery(ss, "Photobooth Captures",System.DateTime.Now.ToShortDateString()+  ".png", (success, path) => Debug.Log("Media save result: " + success + " " + path));
+        Debug.Log("Permission result: " + permission);
+
         string filePath = Path.Combine(Application.temporaryCachePath, "shared img.png");
         File.WriteAllBytes(filePath, ss.EncodeToPNG());
 
@@ -103,11 +109,18 @@ public class ModelSwitcher : MonoBehaviour
             .Share();
     }
 
+    public void ShowBoothMenu()
+    {
+        BoothMenu.DOAnchorPosY(85,0.5f);
+        AugmentUIGroup.gameObject.SetActive(false);
+    }
+
 
     // Update is called o
     // nce per frame
     void Update()
     {
-        
+        Camera.main.transform.localEulerAngles= CameraRotation;
+
     }
 }
