@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &303392675518743019
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8340074814362480348, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Neck_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -8029211991419513862, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_HindLeg_KneeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -7408578464627530126, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_Ear_01_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -7371032007764291461, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Neck_02SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -6933425822852569095, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Neck_TopSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -5665346954675313964, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Spine_TopSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -5400872837648973615, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_FrontLeg_BallSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -4867360266018611692, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Head_JawSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -3874499187008456275, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_Ear_01_02SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -3359931534389365825, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_HindLeg_HipSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -3317589365051376756, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_Ear_01_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -2907192396314303468, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_FrontLeg_HipSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -2838985222736371925, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Spine_02SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -2156080861400692273, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_HindLeg_BallSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -1872257537409735100, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_FrontLeg_ToeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -1492447671949900766, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_FrontLeg_BallSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -1300247563837490106, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_HindLeg_ToeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -1133615157651400462, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_HindLeg_ToeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -804438076949297740, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_HindLeg_BallSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -763976089960614355, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_HindLeg_HipSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: -516475348782284507, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_HindLeg_AnkleSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 141703121979640413, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_FrontLeg_KneeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 867192936771636431, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Tail_01_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 1540390892693033263, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Head_TopSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1580394028877355682, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_FrontLeg_KneeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 2024070641984108884, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_HindLeg_AnkleSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 2474922324360620711, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_FrontLeg_HipSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589956985559668872, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_FrontLeg_AnkleSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 3596838931226684147, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_HindLeg_KneeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 3655737184539550993, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Tail_01_02SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 4349036302083330989, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_MAINSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5117502191225289471, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 54d1f1fdaf6f991418a4997adfe89186, type: 2}
+    - target: {fileID: 5210875290651427066, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Spine_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5666487857062203815, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_Ear_01_02SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5692598463367196125, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_r_Clavicle_01_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5970275909585020220, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_FrontLeg_AnkleSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6378687061618641176, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Spine_03SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449305961762776537, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Spine_04SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573683462052457720, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_FrontLeg_ToeSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8824179537544867664, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_Head_JawEndSHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8964225534090646811, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_l_Clavicle_01_01SHJnt
+      objectReference: {fileID: 0}
+    - target: {fileID: 8993358056412179789, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_Name
+      value: Bear_ROOTSHJnt
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: aecc81b7cc50eb94da52a596bc4ad3d4, type: 3}
