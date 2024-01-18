@@ -91,6 +91,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -383,6 +398,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8279533356555501308}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aecc81b7cc50eb94da52a596bc4ad3d4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 163638153647574793}
   m_SourcePrefab: {fileID: 100100000, guid: aecc81b7cc50eb94da52a596bc4ad3d4, type: 3}
 --- !u!4 &270048278857213440 stripped
 Transform:
@@ -419,7 +438,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -616,3 +635,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.76584935, y: 1.402889, z: 2.4627385}
   m_Center: {x: 0, y: 0.7068871, z: 0.27469692}
+--- !u!95 &163638153647574793
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645342776636816570}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c6b1ae1dcdaaf4479bd760bccf83774, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

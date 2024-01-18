@@ -1,6 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.XR.ARFoundation;
 
 [RequireComponent(typeof(ARRaycastManager))]
@@ -8,22 +8,29 @@ using UnityEngine.XR.ARFoundation;
 public class ObjectSpawnerAR : MonoBehaviour
 {
     ARRaycastManager raycastManager;
-    public List<ARRaycastHit> _Hits;
+    public List<ARRaycastHit> _Hits=new List<ARRaycastHit>();
+    public PlayerInput input;
+    public GameObject[] Prefabs;
+    [SerializeField] int SpawnIndex=0;
+    [SerializeField] GameObject SpawnedModel;
+
     // Start is called before the first frame update
     void Start()
     {
-        raycastManager= GetComponent<ARRaycastManager>();
+        raycastManager = GetComponent<ARRaycastManager>();
     }
 
 
-    public void trySpawnObject(Vector2 POS)
+    public void trySpawnObject(InputAction.CallbackContext context)
     {
-        if (raycastManager.Raycast(POS, _Hits))
+        if (raycastManager.Raycast(context.ReadValue<Vector2>(), _Hits) && !SpawnedModel)
         {
-            Debug.Log("RaycastHit");
             if (_Hits[0].trackable is ARPlane plane)
             {
                 Debug.Log("Plane Hit");
+                Vector3 SpawnPosition = _Hits[0].pose.position;
+                SpawnedModel = Instantiate(Prefabs[SpawnIndex], SpawnPosition, Quaternion.identity);
+                SpawnedModel.transform.LookAt(Camera.main.transform.position);
             }
             else
             {
@@ -32,9 +39,10 @@ public class ObjectSpawnerAR : MonoBehaviour
         }
     }
 
+
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
