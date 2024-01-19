@@ -23,6 +23,7 @@ public class ObjectSpawnerAR : MonoBehaviour
 
     public void trySpawnObject(InputAction.CallbackContext context)
     {
+        Debug.Log("Plane");
         if (raycastManager.Raycast(context.ReadValue<Vector2>(), _Hits) && !SpawnedModel)
         {
             if (_Hits[0].trackable is ARPlane plane)
@@ -37,6 +38,12 @@ public class ObjectSpawnerAR : MonoBehaviour
                 Debug.Log("Hit:" + _Hits[0].hitType);
             }
         }
+    }
+
+    public void ChangeSpawnIndex(int NewIndex)
+    {
+        SpawnIndex = NewIndex;
+        if (SpawnedModel) Destroy(SpawnedModel);
     }
 
 

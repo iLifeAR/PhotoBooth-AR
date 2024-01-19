@@ -1,70 +1,48 @@
 using DG.Tweening;
-using System.Collections;
-using TMPro;
+using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIMaster : MonoBehaviour
 {
 
-    [Header("Doodle")]
-    public Toggle DoodleToggle;
-    public Button DoodlePanelButton;
-    Coroutine DoodlePanelCloseRoutine;
-
-
     [Header("OfflineUI")]
     public Toggle SelectionPanelToggle;
     public RectTransform SelectionPanel;
+    public RectTransform OptionsParent;
 
-    [Space(15), Header("Audio")]
-    public Toggle AudioToggle;
-    public Button AudioPanelButton;
-    public Button LanguageSelectionToggle;
-
-    [System.Serializable]
-    public struct AudioIcons
-    {
-        public Sprite MuteIcon;
-        public Sprite PauseIcon;
-    }
-    public AudioIcons _AudioIconSprites;
-
-    public enum AudioOptions
-    {
-        None, Mute, Pause
-    }
-    public AudioOptions Type;
-    public AudioSource _BGM;
-    public AudioSource _IntroVO;
-
-
-
-    Coroutine AudioPanelCloseRoutine;
-
+    public ObjectSpawnerAR spawner;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (Type == AudioOptions.None)
-        {
-            Debug.LogError("Select Audio Type");
-        }
-
-
-        SelectionPanelToggle.onValueChanged.AddListener(delegate { ToggleOfflinePanel();});
+        SelectionPanelToggle.onValueChanged.AddListener(ToggleOfflinePanel);
     }
 
-    public void ToggleOfflinePanel()
+    public void ToggleOfflinePanel(Boolean SHOW)
     {
-        if (SelectionPanelToggle.isOn)
+        if (SHOW)
         {
-            SelectionPanel.DOAnchorPosX(135, 0.75f).SetEase(Ease.OutBack);
+            SelectionPanel.DOAnchorPosY(170, 0.5f);
         }
         else
         {
-            SelectionPanel.DOAnchorPosX(-155, 0.75f).SetEase(Ease.InBack);
+            SelectionPanel.DOAnchorPosY(-170, 0.5f);
+        }
+    }
+
+    public void ResetObjectToSpawn()
+    {
+        foreach (Transform item in OptionsParent)
+        {
+            if(item.TryGetComponent(out Toggle t))
+            {
+                if (t.isOn)
+                {
+                    spawner.ChangeSpawnIndex(item.GetSiblingIndex());
+                    break;
+                }
+            }
         }
     }
 

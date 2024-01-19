@@ -606,12 +606,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b309761041ee54265b7f9a8c0f373dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ObjectPlaneTranslationMode: 2
+  m_ObjectPlaneTranslationMode: 0
   m_UseInteractorOrientation: 0
-  m_MinScale: 0.25
-  m_MaxScale: 2
-  m_ScaleSensitivity: 0.75
-  m_Elasticity: 0.15
+  m_MinScale: 0.2
+  m_MaxScale: 1.5
+  m_ScaleSensitivity: 0.5
+  m_Elasticity: 0
   m_EnableElasticBreakLimit: 0
   m_ElasticBreakLimit: 0.5
 --- !u!65 &8279533356555501308
