@@ -32,19 +32,17 @@ public class ScreenShot : MonoBehaviour
         PanelUI.gameObject.SetActive(true);
         Grid.ToggleGridVisibility(true);
         Debug.Log(filePath);
-        byte[] FileBytes = File.ReadAllBytes(filePath);
-
-        NativeGallery.Permission permission = NativeGallery.SaveImageToGallery(FileBytes, "Photobooth", System.DateTime.Now.ToString("MM-dd-yy (HH-mm-ss)") + ".png", (success, path) => GallaryPath = path);
-        if (string.IsNullOrEmpty(GallaryPath))
-        {
-            Debug.LogError("Not Saved");
-        }
-
         new NativeShare().AddFile(filePath)
             .SetSubject("Subject goes here").SetText("Hello world!").SetUrl("https://github.com/yasirkula/UnityNativeShare")
             .SetCallback((result, shareTarget) => Debug.Log("Share result: " + result + ", selected app: " + shareTarget))
             .Share();
 
+        byte[] FileBytes = File.ReadAllBytes(filePath);
+        NativeGallery.Permission permission = NativeGallery.SaveImageToGallery(FileBytes, "Photobooth", System.DateTime.Now.ToString("MM-dd-yy (HH-mm-ss)") + ".png", (success, path) => GallaryPath = path);
+        if (string.IsNullOrEmpty(GallaryPath))
+        {
+            Debug.LogError("Not Saved");
+        }
 
     }
 
