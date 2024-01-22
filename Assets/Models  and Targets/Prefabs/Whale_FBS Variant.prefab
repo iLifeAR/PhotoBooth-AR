@@ -81,6 +81,37 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     m_Variable: {fileID: 0}
+--- !u!1 &2239459860292979674
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 94792130672943210}
+  m_Layer: 0
+  m_Name: AttachTransform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &94792130672943210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2239459860292979674}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.0063508865, z: 0}
+  m_LocalScale: {x: 0.06615507, y: 0.06615507, z: 0.06615507}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9080362174217371883}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8757623536415385344
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89,6 +120,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8719539372298423134, guid: bf66c1a3e1c02634ba2252652e35abed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.570821
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -154,20 +190,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8402219843955935134, guid: bf66c1a3e1c02634ba2252652e35abed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -8.9615555
+      objectReference: {fileID: 0}
+    - target: {fileID: -6715529778400539743, guid: bf66c1a3e1c02634ba2252652e35abed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -10.092774
+      objectReference: {fileID: 0}
     - target: {fileID: -1831748113488027223, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -3.3363628
+      value: -29.881058
       objectReference: {fileID: 0}
     - target: {fileID: -1831748113488027223, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -64.47609
+      value: -60.251488
       objectReference: {fileID: 0}
     - target: {fileID: -1831748113488027223, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 132.44725
+      value: 118.144714
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
@@ -177,47 +223,52 @@ PrefabInstance:
     - target: {fileID: 938090023232318888, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -21.351286
+      value: -44.742065
       objectReference: {fileID: 0}
     - target: {fileID: 938090023232318888, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 139.71109
+      value: 139.71107
       objectReference: {fileID: 0}
     - target: {fileID: 938090023232318888, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 180
+      value: 115.76698
+      objectReference: {fileID: 0}
+    - target: {fileID: 1664322722406881187, guid: bf66c1a3e1c02634ba2252652e35abed,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -12.33693
       objectReference: {fileID: 0}
     - target: {fileID: 1689138051835124196, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -11.780536
+      value: -7.08808
       objectReference: {fileID: 0}
     - target: {fileID: 1689138051835124196, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -104.3982
+      value: -111.50796
       objectReference: {fileID: 0}
     - target: {fileID: 1689138051835124196, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -178.93297
+      value: -11.257248
       objectReference: {fileID: 0}
     - target: {fileID: 6634744450374980082, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 13.88663
+      value: 8.064569
       objectReference: {fileID: 0}
     - target: {fileID: 6634744450374980082, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 99.284065
+      value: 106.41894
       objectReference: {fileID: 0}
     - target: {fileID: 6634744450374980082, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0.6960043
+      value: -0.7493017
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -227,6 +278,10 @@ PrefabInstance:
         type: 3}
       insertIndex: 1
       addedObject: {fileID: 1295395445751028664}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: bf66c1a3e1c02634ba2252652e35abed,
+        type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 94792130672943210}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: bf66c1a3e1c02634ba2252652e35abed,
         type: 3}
@@ -405,7 +460,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 94792130672943210}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
@@ -472,7 +527,7 @@ MonoBehaviour:
   m_MinScale: 8
   m_MaxScale: 70
   m_ScaleSensitivity: 0.75
-  m_Elasticity: 0.15
+  m_Elasticity: 0
   m_EnableElasticBreakLimit: 0
   m_ElasticBreakLimit: 0.5
 --- !u!65 &5992205385331118917

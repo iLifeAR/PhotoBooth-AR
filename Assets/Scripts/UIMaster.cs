@@ -11,12 +11,12 @@ public class UIMaster : MonoBehaviour
     public RectTransform SelectionPanel;
     public RectTransform OptionsParent;
 
-    public ObjectSpawnerAR spawner;
+    public Grid spawner;
 
     // Start is called before the first frame update
     void Start()
     {
-        SelectionPanelToggle.onValueChanged.AddListener(ToggleOfflinePanel);
+        //SelectionPanelToggle.onValueChanged.AddListener(ToggleOfflinePanel);
     }
 
     public void ToggleOfflinePanel(Boolean SHOW)

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ca06bc076b276664cb876ec157a628a5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Sassoon Sans Std
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 661af512da7d2cc479fe7d14249e7a5a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
